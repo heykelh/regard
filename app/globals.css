@@ -1,26 +1,84 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:is(.dark *));
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --radius: 0.25rem;
+
+  --background: oklch(0.985 0.002 240);
+  --foreground: oklch(0.18 0.004 240);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.18 0.004 240);
+  --muted: oklch(0.95 0.003 240);
+  --muted-foreground: oklch(0.5 0.005 240);
+  --border: oklch(0.9 0.004 240);
+  --input: oklch(0.9 0.004 240);
+  --ring: oklch(0.62 0.12 230);
+  --primary: oklch(0.55 0.13 230);
+  --primary-foreground: oklch(0.99 0 0);
+
+  --ok: oklch(0.62 0.14 155);
+  --warn: oklch(0.72 0.15 75);
+  --danger: oklch(0.58 0.18 25);
+}
+
+.dark {
+  --background: oklch(0.16 0.006 245);
+  --foreground: oklch(0.92 0.004 240);
+  --card: oklch(0.2 0.006 245);
+  --card-foreground: oklch(0.92 0.004 240);
+  --muted: oklch(0.26 0.006 245);
+  --muted-foreground: oklch(0.68 0.006 240);
+  --border: oklch(0.3 0.007 245);
+  --input: oklch(0.3 0.007 245);
+  --ring: oklch(0.7 0.12 230);
+  --primary: oklch(0.72 0.13 230);
+  --primary-foreground: oklch(0.16 0.006 245);
+
+  --ok: oklch(0.72 0.15 155);
+  --warn: oklch(0.8 0.15 78);
+  --danger: oklch(0.68 0.18 25);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-ok: var(--ok);
+  --color-warn: var(--warn);
+  --color-danger: var(--danger);
+
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 2px);
+
+  --font-display: var(--font-kanit);
+  --font-mono: var(--font-jetbrains);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    border-color: var(--color-border);
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-feature-settings: "tnum" 1;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  code, pre, .tabular {
+    font-family: var(--font-mono);
+  }
 }
