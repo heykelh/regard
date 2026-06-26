@@ -1,0 +1,212 @@
+{
+  "generatedAt": "2026-06-26T06:32:57.951Z",
+  "sourceFile": "exposures_raw.csv",
+  "totalRaw": 207,
+  "kept": 140,
+  "rejected": 38,
+  "duplicatesDropped": 29,
+  "avgQuality": 0.751,
+  "qualityBuckets": {
+    "high": 12,
+    "medium": 98,
+    "low": 30
+  },
+  "rejectionsByReason": {
+    "devise manquante": 30,
+    "montant illisible": 3,
+    "contrepartie manquante": 3,
+    "date invalide ou manquante": 2
+  },
+  "rejections": [
+    {
+      "exposureId": "EXP-1069",
+      "counterparty": "Commerzbank",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-BAD-8",
+      "counterparty": "Deutsche Bank",
+      "reason": "montant illisible"
+    },
+    {
+      "exposureId": "EXP-1087",
+      "counterparty": "UniCredit",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-BAD-0",
+      "counterparty": "Rabobank",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-1100",
+      "counterparty": "UniCredit",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-BAD-5",
+      "counterparty": "Nordea",
+      "reason": "montant illisible"
+    },
+    {
+      "exposureId": "EXP-1108",
+      "counterparty": "Deutsche Bank",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-1009",
+      "counterparty": "UniCredit",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-1079",
+      "counterparty": "Barclays",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-1139",
+      "counterparty": "ING Group",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-1102",
+      "counterparty": "ABN Amro",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-1082",
+      "counterparty": "Commerzbank",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-1086",
+      "counterparty": "Rabobank",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-1000",
+      "counterparty": "Rabobank",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-BAD-6",
+      "counterparty": "",
+      "reason": "contrepartie manquante"
+    },
+    {
+      "exposureId": "EXP-1091",
+      "counterparty": "KBC Group",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-BAD-10",
+      "counterparty": "Deutsche Bank",
+      "reason": "date invalide ou manquante"
+    },
+    {
+      "exposureId": "EXP-1044",
+      "counterparty": "Société Générale",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-1037",
+      "counterparty": "HSBC",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-BAD-3",
+      "counterparty": "DEUTX",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-BAD-2",
+      "counterparty": "",
+      "reason": "contrepartie manquante"
+    },
+    {
+      "exposureId": "EXP-DUP-18",
+      "counterparty": "Barclays",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-DUP-19",
+      "counterparty": "BNP Paribas",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-1066",
+      "counterparty": "ING Group",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-1046",
+      "counterparty": "HSBC",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-1119",
+      "counterparty": "KBC Group",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-BAD-7",
+      "counterparty": "Nordea",
+      "reason": "date invalide ou manquante"
+    },
+    {
+      "exposureId": "EXP-1056",
+      "counterparty": "Crédit Agricole",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-1094",
+      "counterparty": "ING Group",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-1110",
+      "counterparty": "Société Générale",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-BAD-1",
+      "counterparty": "",
+      "reason": "contrepartie manquante"
+    },
+    {
+      "exposureId": "EXP-1057",
+      "counterparty": "Société Générale",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-1064",
+      "counterparty": "Nordea",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-1020",
+      "counterparty": "Rabobank",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-BAD-11",
+      "counterparty": "ABN X",
+      "reason": "montant illisible"
+    },
+    {
+      "exposureId": "EXP-BAD-4",
+      "counterparty": "BNP Paribas",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-1089",
+      "counterparty": "Crédit Agricole",
+      "reason": "devise manquante"
+    },
+    {
+      "exposureId": "EXP-BAD-9",
+      "counterparty": "BNP Paribas",
+      "reason": "devise manquante"
+    }
+  ]
+}

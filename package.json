@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "build:gold": "tsx pipeline/build-gold.ts",
-    "embed:docs": "tsx pipeline/docs/embed.ts"
+    "embed:docs": "tsx pipeline/docs/embed.ts",
+    "gen:raw": "tsx pipeline/raw/generate.ts"
   },
   "dependencies": {
     "@duckdb/duckdb-wasm": "^1.32.0",

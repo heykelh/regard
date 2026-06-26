@@ -1,0 +1,141 @@
+id,counterparty,amount,currency,asOf,qualityScore,sourceFile
+EXP-1025,Commerzbank,7311000,EUR,2026-01-01,0.65,exposures_raw.csv
+EXP-DUP-10,BNP Paribas,4645000,EUR,2026-01-02,0.65,exposures_raw.csv
+EXP-1123,Société Générale,5630000,CHF,2026-03-15,0.6,exposures_raw.csv
+EXP-1159,Barclays,7980000,EUR,2026-03-01,0.7,exposures_raw.csv
+EXP-1027,Natixis,2514000,CHF,2026-02-20,0.7,exposures_raw.csv
+EXP-DUP-5,Crédit Agricole,5330000,GBP,2026-02-13,0.85,exposures_raw.csv
+EXP-1114,Rabobank,8030000,GBP,2026-03-02,0.7,exposures_raw.csv
+EXP-1017,Barclays,6585000,GBP,2026-02-02,0.75,exposures_raw.csv
+EXP-DUP-3,UniCredit,4490000,USD,2026-03-27,0.85,exposures_raw.csv
+EXP-1152,Barclays,4462000,EUR,2026-02-25,0.9,exposures_raw.csv
+EXP-1022,Banco Santander,6080000,USD,2026-02-01,0.75,exposures_raw.csv
+EXP-1002,Nordea,7643000,USD,2026-01-01,0.9,exposures_raw.csv
+EXP-1007,Commerzbank,2930000,EUR,2026-02-01,0.8,exposures_raw.csv
+EXP-1117,Banco Santander,725000,CHF,2026-03-12,0.7,exposures_raw.csv
+GEN-15,ING Group,1867000,CHF,2026-02-18,0.6,exposures_raw.csv
+EXP-1138,Natixis,1300000,USD,2026-02-01,0.7,exposures_raw.csv
+GEN-18,ING Group,1576000,GBP,2026-02-23,0.65,exposures_raw.csv
+EXP-1005,Banco Santander,391000,CHF,2026-02-14,0.8,exposures_raw.csv
+EXP-1043,Barclays,1440000,EUR,2026-03-04,0.75,exposures_raw.csv
+GEN-22,Intesa Sanpaolo,3803000,GBP,2026-01-12,0.65,exposures_raw.csv
+EXP-DUP-13,KBC Group,5781000,GBP,2026-01-23,0.9,exposures_raw.csv
+EXP-DUP-8,KBC Group,584000,EUR,2026-01-26,0.8,exposures_raw.csv
+EXP-1163,Société Générale,7090000,GBP,2026-01-09,0.8,exposures_raw.csv
+EXP-1077,Hsbcx,5201000,CHF,2026-01-04,0.75,exposures_raw.csv
+EXP-1099,ING Group,7956000,EUR,2026-01-01,0.65,exposures_raw.csv
+EXP-1018,BNP Paribas,2188000,EUR,2026-03-06,0.65,exposures_raw.csv
+EXP-1143,Crédit Agricole,6590000,CHF,2026-02-01,0.8,exposures_raw.csv
+EXP-1029,Rabobank,550000,GBP,2026-02-01,0.8,exposures_raw.csv
+EXP-1023,Société Générale,6125000,EUR,2026-02-12,0.75,exposures_raw.csv
+EXP-1109,Natixis,3354000,EUR,2026-01-11,0.6,exposures_raw.csv
+EXP-1074,Barclays,7666000,CHF,2026-01-24,0.95,exposures_raw.csv
+EXP-1061,BNP Paribas,5731000,USD,2026-01-14,0.65,exposures_raw.csv
+EXP-1034,Banco Santander,4698000,EUR,2026-01-06,0.65,exposures_raw.csv
+EXP-1172,BNP Paribas,5360000,GBP,2026-02-13,0.85,exposures_raw.csv
+EXP-1101,ABN Amro,2611000,GBP,2026-01-07,0.75,exposures_raw.csv
+EXP-DUP-16,UniCredit,5947000,GBP,2026-02-26,0.65,exposures_raw.csv
+EXP-1054,CréDX,2972000,EUR,2026-01-08,0.65,exposures_raw.csv
+EXP-1112,Rabobank,9217000,EUR,2026-02-17,0.85,exposures_raw.csv
+EXP-1092,KBC Group,7761000,EUR,2026-03-14,0.8,exposures_raw.csv
+EXP-1033,Crédit Agricole,3021000,CHF,2026-02-19,0.75,exposures_raw.csv
+EXP-1040,Nordea,5670000,USD,2026-03-03,0.65,exposures_raw.csv
+EXP-1041,Nordea,8956000,EUR,2026-01-05,0.8,exposures_raw.csv
+EXP-1149,KBC Group,5534000,EUR,2026-02-27,0.85,exposures_raw.csv
+EXP-1135,Natixis,951000,GBP,2026-03-01,0.7,exposures_raw.csv
+EXP-1038,ING Group,3239000,EUR,2026-03-24,0.85,exposures_raw.csv
+EXP-1147,Commerzbank,7834000,USD,2026-01-25,0.8,exposures_raw.csv
+EXP-1158,Crédit Agricole,3529000,CHF,2026-01-01,0.75,exposures_raw.csv
+EXP-1081,Barclays,9307000,GBP,2026-01-01,0.65,exposures_raw.csv
+EXP-1160,UniCredit,9356000,EUR,2026-01-18,0.8,exposures_raw.csv
+EXP-1095,Natixis,1464000,USD,2026-03-27,0.8,exposures_raw.csv
+EXP-1024,Nordea,2164000,GBP,2026-03-05,0.7,exposures_raw.csv
+EXP-1015,Deutsche Bank,8562000,CHF,2026-01-14,0.85,exposures_raw.csv
+EXP-1136,Banco Santander,3164000,USD,2026-02-13,0.6,exposures_raw.csv
+EXP-1116,Société Générale,461000,EUR,2026-01-10,0.7,exposures_raw.csv
+EXP-1142,Rabobank,7162000,CHF,2026-01-01,0.7,exposures_raw.csv
+EXP-1026,KBC Group,6873000,CHF,2026-03-01,0.75,exposures_raw.csv
+EXP-1085,HSBC,8830000,CHF,2026-03-02,0.75,exposures_raw.csv
+EXP-1156,ABN Amro,4280000,EUR,2026-03-25,0.9,exposures_raw.csv
+EXP-1008,Rabobank,260000,EUR,2026-02-27,0.65,exposures_raw.csv
+EXP-1090,Nordea,2332000,CHF,2026-02-01,0.75,exposures_raw.csv
+EXP-1001,Barclays,7879000,USD,2026-02-04,0.75,exposures_raw.csv
+EXP-1137,Commerzbank,2090000,EUR,2026-03-23,0.75,exposures_raw.csv
+EXP-1045,Deutsche Bank,7799000,GBP,2026-03-22,0.75,exposures_raw.csv
+EXP-1167,Commerzbank,2700000,USD,2026-02-13,0.7,exposures_raw.csv
+EXP-1070,Commerzbank,7997000,USD,2026-03-01,0.7,exposures_raw.csv
+EXP-1076,Nordea,458000,CHF,2026-02-15,0.8,exposures_raw.csv
+EXP-1071,Commerzbank,8834000,CHF,2026-02-25,1,exposures_raw.csv
+EXP-1170,Deutsche Bank,5276000,GBP,2026-02-18,0.85,exposures_raw.csv
+EXP-1012,BNP Paribas,1534000,GBP,2026-02-01,0.75,exposures_raw.csv
+EXP-1140,ING Group,8677000,USD,2026-03-12,0.8,exposures_raw.csv
+EXP-1075,Natixis,380000,USD,2026-02-10,0.9,exposures_raw.csv
+EXP-DUP-2,BNP Paribas,5062000,CHF,2026-01-05,0.8,exposures_raw.csv
+EXP-1155,HSBC,6037000,CHF,2026-01-26,0.8,exposures_raw.csv
+EXP-1153,Intesa Sanpaolo,2007000,CHF,2026-01-23,0.8,exposures_raw.csv
+EXP-1035,Deutsche Bank,562000,EUR,2026-03-01,0.7,exposures_raw.csv
+EXP-1111,Natixis,2790000,GBP,2026-03-21,0.6,exposures_raw.csv
+EXP-1047,UniCX,8997000,USD,2026-01-18,0.8,exposures_raw.csv
+EXP-1121,KBC Group,4399000,GBP,2026-01-18,0.65,exposures_raw.csv
+EXP-1118,Barclays,6580000,USD,2026-01-16,0.75,exposures_raw.csv
+EXP-1013,KBC Group,3863000,CHF,2026-03-23,0.8,exposures_raw.csv
+EXP-1078,KBC Group,6480000,GBP,2026-03-15,1,exposures_raw.csv
+EXP-1165,Nordea,8360000,GBP,2026-03-22,0.8,exposures_raw.csv
+EXP-1151,Intesa Sanpaolo,7910000,CHF,2026-03-26,0.7,exposures_raw.csv
+EXP-1049,Société Générale,6419000,GBP,2026-01-08,0.75,exposures_raw.csv
+GEN-97,Commerzbank,5405000,USD,2026-03-22,0.7,exposures_raw.csv
+EXP-1016,KBC Group,3012000,EUR,2026-03-20,0.6,exposures_raw.csv
+EXP-1106,ABN Amro,6288000,GBP,2026-02-10,0.75,exposures_raw.csv
+EXP-1032,ING Group,9032000,CHF,2026-01-23,0.7,exposures_raw.csv
+EXP-1154,HSBC,7187000,USD,2026-02-01,0.7,exposures_raw.csv
+EXP-1115,Natixis,6155000,GBP,2026-03-15,0.8,exposures_raw.csv
+EXP-1053,Rabobank,4315000,CHF,2026-03-24,0.8,exposures_raw.csv
+EXP-1063,NORDX,2646000,USD,2026-01-02,0.65,exposures_raw.csv
+EXP-1157,Natixis,1305000,USD,2026-01-18,0.75,exposures_raw.csv
+EXP-1130,Société Générale,4800000,CHF,2026-01-01,0.85,exposures_raw.csv
+EXP-1164,Commerzbank,2010000,GBP,2026-02-14,0.65,exposures_raw.csv
+EXP-1105,Crédit Agricole,1379000,CHF,2026-02-26,0.75,exposures_raw.csv
+EXP-1124,ABN Amro,3227000,CHF,2026-02-01,0.7,exposures_raw.csv
+EXP-1080,BNP Paribas,5969000,EUR,2026-02-28,0.65,exposures_raw.csv
+EXP-1088,Société Générale,4430000,GBP,2026-01-04,0.7,exposures_raw.csv
+EXP-1048,KBC Group,4856000,GBP,2026-01-01,0.7,exposures_raw.csv
+EXP-1166,KBC Group,2371000,CHF,2026-02-22,0.75,exposures_raw.csv
+EXP-DUP-9,Natixis,1449000,EUR,2026-03-17,0.85,exposures_raw.csv
+EXP-1051,Intesa Sanpaolo,7796000,GBP,2026-03-05,0.8,exposures_raw.csv
+EXP-1129,ABN Amro,3398000,CHF,2026-01-21,0.8,exposures_raw.csv
+GEN-122,Barclays,5856000,EUR,2026-01-11,0.65,exposures_raw.csv
+EXP-1036,BNP Paribas,4882000,GBP,2026-01-11,0.8,exposures_raw.csv
+EXP-1004,Nordea,8014000,EUR,2026-03-19,0.7,exposures_raw.csv
+EXP-1028,Rabobank,8720000,CHF,2026-03-01,0.85,exposures_raw.csv
+EXP-1014,UniCredit,2800000,EUR,2026-01-22,0.75,exposures_raw.csv
+EXP-1031,Nordea,3290000,GBP,2026-01-21,0.8,exposures_raw.csv
+EXP-1144,Banco Santander,281000,CHF,2026-03-13,0.75,exposures_raw.csv
+EXP-1171,Banco Santander,1708000,CHF,2026-03-18,0.7,exposures_raw.csv
+EXP-1097,Intesa Sanpaolo,700000,USD,2026-03-24,0.7,exposures_raw.csv
+EXP-1006,BNP Paribas,640000,CHF,2026-03-01,0.75,exposures_raw.csv
+EXP-1126,Rabobank,1696000,GBP,2026-02-18,0.9,exposures_raw.csv
+EXP-1019,Deutsche Bank,1886000,CHF,2026-03-14,0.85,exposures_raw.csv
+EXP-1122,BNP Paribas,4440000,EUR,2026-01-01,0.65,exposures_raw.csv
+EXP-1146,Intesa Sanpaolo,1049000,EUR,2026-01-01,0.65,exposures_raw.csv
+GEN-140,Commerzbank,2996000,GBP,2026-02-16,0.8,exposures_raw.csv
+GEN-141,Nordea,4520000,CHF,2026-03-28,0.55,exposures_raw.csv
+EXP-1068,Deutsche Bank,7354000,EUR,2026-02-11,0.75,exposures_raw.csv
+GEN-145,Natixis,1640000,USD,2026-01-22,0.5,exposures_raw.csv
+EXP-1113,BNP Paribas,8072000,EUR,2026-03-20,0.8,exposures_raw.csv
+EXP-DUP-4,ING Group,4873000,EUR,2026-03-02,0.9,exposures_raw.csv
+EXP-1084,Barclays,871000,CHF,2026-02-07,0.75,exposures_raw.csv
+EXP-1145,SOCIX,8089000,GBP,2026-03-01,0.55,exposures_raw.csv
+EXP-1021,Nordea,350000,GBP,2026-03-06,0.75,exposures_raw.csv
+EXP-1173,ABN Amro,4130000,GBP,2026-01-05,0.8,exposures_raw.csv
+EXP-1103,Barclays,7167000,USD,2026-02-01,0.7,exposures_raw.csv
+EXP-1067,Intesa Sanpaolo,5610000,CHF,2026-03-01,0.7,exposures_raw.csv
+EXP-1003,Rabobank,6960000,GBP,2026-01-05,0.65,exposures_raw.csv
+EXP-1107,Banco Santander,3946000,CHF,2026-01-04,0.85,exposures_raw.csv
+EXP-1050,BNP Paribas,804000,CHF,2026-01-20,0.9,exposures_raw.csv
+EXP-1169,BNP Paribas,5389000,EUR,2026-01-04,0.85,exposures_raw.csv
+EXP-1062,Crédit Agricole,1930000,CHF,2026-01-28,0.9,exposures_raw.csv
+EXP-1060,Natixis,1873000,EUR,2026-03-22,0.75,exposures_raw.csv
+EXP-1096,Natixis,3756000,EUR,2026-02-08,0.75,exposures_raw.csv
+EXP-1104,Banco Santander,5733000,USD,2026-01-14,0.75,exposures_raw.csv
+EXP-1127,Société Générale,6545000,GBP,2026-02-02,0.85,exposures_raw.csv
+EXP-1042,Crédit Agricole,1570000,GBP,2026-02-18,0.85,exposures_raw.csv
