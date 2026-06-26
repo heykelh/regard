@@ -1,65 +1,103 @@
-import Image from "next/image";
+import Link from "next/link";
+import { ArrowRight, ShieldCheck, HardHat, ScrollText } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+    <main className="mx-auto max-w-5xl px-6">
+      <section className="border-b border-border py-20 sm:py-28">
+        <p className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
+          REGARD · Copilote de conformité
+        </p>
+        <h1 className="mt-4 max-w-3xl text-4xl leading-tight text-foreground sm:text-5xl">
+          L&apos;IA branchée sur le désordre du réel.
+        </h1>
+        <p className="mt-5 max-w-2xl text-lg text-muted-foreground">
+          Construire un modèle est devenu une commodité. Le mur, aujourd&apos;hui, c&apos;est de le faire
+          tourner sur la donnée en désordre et les contraintes d&apos;une vraie organisation régulée.
+          REGARD est une démonstration de ce passage — de la donnée brute à une réponse gouvernée,
+          vérifiable et tracée.
+        </p>
+        <div className="mt-8 flex flex-wrap gap-3">
+          <Button asChild>
+            <Link href="/copilote">
+              Ouvrir le copilote <ArrowRight className="ml-1.5 size-4" />
+            </Link>
+          </Button>
+          <Button asChild variant="outline">
+            <Link href="/copilote/qualite">Voir la qualité des données</Link>
+          </Button>
+        </div>
+      </section>
+
+      <section className="grid gap-px border-b border-border bg-border sm:grid-cols-3">
+        <Pillar
+          icon={<HardHat className="size-5 text-foreground" />}
+          title="Le terrain, connu de l'intérieur"
+          body="Douze ans en environnement critique ferroviaire : procédures, gestion d'incidents, décision rapide, savoir dire non. L'instinct opérationnel ne se code pas — c'est ce qui manque à la plupart des projets d'IA."
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+        <Pillar
+          icon={<ScrollText className="size-5 text-foreground" />}
+          title="La donnée d'abord, sans faire semblant"
+          body="Une donnée d'entreprise réelle est sale : un tiers est inexploitable ou redondant. REGARD ne le cache pas — il nettoie, score, et trace ce qu'il refuse de laisser passer."
+        />
+        <Pillar
+          icon={<ShieldCheck className="size-5 text-foreground" />}
+          title="La fiabilité se prouve"
+          body="Aucune promesse de zéro erreur. Des contrôles déterministes d'abord, un LLM-juge pour le flou, une escalade humaine quand la confiance manque, et un journal d'audit complet."
+        />
+      </section>
+
+      <section className="py-16">
+        <h2 className="text-2xl text-foreground">Comment REGARD répond</h2>
+        <p className="mt-3 max-w-2xl text-muted-foreground">
+          L&apos;agent ne fait pas confiance au modèle pour se vérifier lui-même. Il récupère le chiffre
+          dans la donnée gold et la règle dans le texte régulé, les croise, puis passe par une couche
+          d&apos;autocontrôle avant de répondre — ou de refuser, avec un motif.
+        </p>
+        <ol className="mt-8 space-y-px overflow-hidden rounded-md border border-border bg-border font-mono text-sm">
+          <Step n="01" title="Donnée sale → table gold" desc="Nettoyage, normalisation, déduplication, score qualité par ligne." />
+          <Step n="02" title="Récupération croisée" desc="Le chiffre dans les données, la règle dans le texte régulé." />
+          <Step n="03" title="Autocontrôle" desc="Citations, fraîcheur, seuils, plancher de confiance — déterministe, puis LLM-juge." />
+          <Step n="04" title="Réponse ou refus motivé" desc="Réponse sourcée avec badges, ou escalade humaine. Tout est tracé." />
+        </ol>
+      </section>
+
+      <footer className="border-t border-border py-10 font-mono text-sm text-muted-foreground">
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <span>REGARD — démonstration forward deployed</span>
+          <div className="flex gap-5">
+            <a href="https://github.com/heykelh/regard" className="hover:text-foreground" target="_blank" rel="noreferrer">
+              GitHub
+            </a>
+            <a href="https://heykelhachiche.com" className="hover:text-foreground" target="_blank" rel="noreferrer">
+              Portfolio
+            </a>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+      </footer>
+    </main>
+  );
+}
+
+function Pillar({ icon, title, body }: { icon: React.ReactNode; title: string; body: string }) {
+  return (
+    <div className="bg-background p-6">
+      <div className="flex size-10 items-center justify-center rounded-md border border-border">{icon}</div>
+      <h3 className="mt-4 text-lg text-foreground">{title}</h3>
+      <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{body}</p>
     </div>
+  );
+}
+
+function Step({ n, title, desc }: { n: string; title: string; desc: string }) {
+  return (
+    <li className="flex items-start gap-4 bg-background px-5 py-4">
+      <span className="text-muted-foreground">{n}</span>
+      <div>
+        <p className="text-foreground">{title}</p>
+        <p className="mt-0.5 text-xs text-muted-foreground">{desc}</p>
+      </div>
+    </li>
   );
 }
